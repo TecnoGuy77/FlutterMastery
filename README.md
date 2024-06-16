@@ -1,16 +1,26 @@
 # fluttermastery
 
-A new Flutter project.
+This Flutter Project is Created For Only Learning Purpose.
 
-## Getting Started
+## TecnoGuy Bio
 
-This project is a starting point for a Flutter application.
+💻 I am a Low-Level Programmer.
+🎮 Loves to Play Games Like Minecraft (aka. TecnoGuy69 😎).
+🤗 Hobby: Learning Flutter & Firebase.
+🔞 Age: D0es №t Matters
 
-A few resources to get you started if this is your first Flutter project:
+## Skillz
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- C++ (Pro)
+- C# (Pro)
+- Arduino UNO (aka. C#) (Pro)
+- Java (Medium)
+- Python (Low)
+- Dart (Learning)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contacts
+
+- [Discord](https://discord.gg/MaXshecY)
+- E-Mail: tecnoguy69@gmail.com
+
+## Note On Discord You May FOund My Name as FLutterGuy.
