@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttermastery/utils/routes.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:fluttermastery/pages/home_page.dart';
 import 'package:fluttermastery/pages/login_page.dart';
@@ -21,9 +22,9 @@ class FlutterMastery extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/login",
       routes: {
-        "/": (context) => const HomePage(),
-        "/home": (context) => const HomePage(),
-        "/login": (context) => const LoginPage()
+        MyRoutes.homeRoute: (context) => const HomePage(),
+        MyRoutes.homeRoute: (context) => const HomePage(),
+        MyRoutes.loginRoute: (context) => const LoginPage(),
       },
     );
   }

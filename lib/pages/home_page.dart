@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttermastery/utils/routes.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -8,22 +9,34 @@ class HomePage extends StatelessWidget {
     return Material(
       child: Scaffold(
         appBar: AppBar(
-          iconTheme: const IconThemeData(color: Colors.white),
+          actions: [
+            Padding(
+              padding: const EdgeInsets.only(right: 20),
+              child: IconButton(
+                  onPressed: () {
+                    Navigator.popAndPushNamed(context, MyRoutes.loginRoute);
+                  },
+                  icon: const Icon(Icons.home)),
+            )
+          ],
+          foregroundColor: Colors.white,
           title: const Center(
-            child: Text(
-              "Home",
-              style:
-                  TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+            child: Padding(
+              padding: EdgeInsets.only(right: 25),
+              child: Text(
+                "Home",
+              ),
             ),
           ),
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.deepPurpleAccent,
         ),
         drawer: const Drawer(),
         body: const Center(
           child: Text(
-            "NGPORTAL",
+            "Welcome To Home",
             style: TextStyle(
-              color: Colors.blue,
+              fontSize: 25,
+              color: Colors.deepPurpleAccent,
               fontWeight: FontWeight.bold,
             ),
           ),
