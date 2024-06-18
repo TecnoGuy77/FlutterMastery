@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttermastery/utils/routes.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
