@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttermastery/utils/routes.dart';
+import 'package:fluttermastery/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -30,7 +31,7 @@ class HomePage extends StatelessWidget {
           ),
           backgroundColor: Colors.deepPurpleAccent,
         ),
-        drawer: const Drawer(),
+        drawer: const MyDrawer(),
         body: const Center(
           child: Text(
             "Welcome To Home",

@@ -20,7 +20,7 @@ class FlutterMastery extends StatelessWidget {
         textTheme: GoogleFonts.aBeeZeeTextTheme(),
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute: "/login",
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         MyRoutes.homeRoute: (context) => const HomePage(),
         MyRoutes.homeRoute: (context) => const HomePage(),
